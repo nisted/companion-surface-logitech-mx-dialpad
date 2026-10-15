@@ -1,0 +1,37 @@
+{
+	"name": "companion-surface-logitech-mx-dialpad",
+	"version": "0.1.0",
+	"main": "dist/main.js",
+	"type": "module",
+	"scripts": {
+		"package": "run build && companion-surface-build",
+		"build": "rimraf dist && tsc -p tsconfig.build.json",
+		"dev": "tsc -p tsconfig.build.json --watch",
+		"lint:raw": "eslint",
+		"lint": "run lint:raw ."
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nisted/companion-surface-logitech-mx-dialpad.git"
+	},
+	"engines": {
+		"node": "^22.18",
+		"yarn": "^4"
+	},
+	"dependencies": {
+		"@companion-surface/base": "~1.1.0",
+		"node-hid": "^3.1.2"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^2.8.0",
+		"@types/node": "^22.19.3",
+		"rimraf": "^6.1.2",
+		"typescript": "~5.9.3",
+		"eslint": "^9.39.2",
+		"prettier": "^3.7.4",
+		"typescript-eslint": "^8.50.0"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json",
+	"packageManager": "yarn@4.12.0"
+}
