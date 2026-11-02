@@ -64,6 +64,7 @@ const MxDialpadPlugin: SurfacePlugin<HIDDevice> = {
 							id: 'reverseDial',
 							type: 'checkbox',
 							label: 'Reverse dial direction',
+							tooltip: 'By default, clockwise is rotate right',
 							default: false,
 						},
 						{

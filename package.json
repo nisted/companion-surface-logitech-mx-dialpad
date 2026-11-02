@@ -1,6 +1,6 @@
 {
 	"name": "companion-surface-logitech-mx-dialpad",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"main": "dist/main.js",
 	"type": "module",
 	"scripts": {

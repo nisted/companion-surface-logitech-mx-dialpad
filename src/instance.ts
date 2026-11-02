@@ -9,14 +9,14 @@ import {
 } from '@companion-surface/base'
 import { Hidpp } from './hidpp.js'
 
-/** Controls as they appear in Companion: row/column. */
-export const DIAL_ID = '0/0'
-export const ROLLER_ID = '0/1'
+/** Controls as they appear in Companion (row/column), laid out like the Dialpad itself. */
+export const ROLLER_ID = '0/2'
+export const DIAL_ID = '1/1'
 const BUTTON_IDS = new Map<number, string>([
-	[0x0053, '1/0'], // top-left
-	[0x0056, '1/1'], // top-right
-	[0x0059, '2/0'], // bottom-left
-	[0x005a, '2/1'], // bottom-right
+	[0x0053, '0/0'], // top row, first button
+	[0x0056, '0/1'], // top row, second button
+	[0x0059, '1/0'], // bottom-left
+	[0x005a, '1/2'], // bottom-right
 ])
 
 /** Dial/roller feature: control numbers and the mode that sends them to us. */
