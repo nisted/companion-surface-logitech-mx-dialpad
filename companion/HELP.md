@@ -17,3 +17,7 @@ Logi Options+ can be used in conjunction with the Dialpad as a Companion surface
 
 The Dialpad has been tested over Bluetooth direct to both Windows and macOS.
 If Companion doesn't find the Dialpad, click **Rescan USB** on the Surfaces page.
+
+### Psst. This one's got mates. 🍹
+
+MX Creative Dialpad is part of a little crew of Companion modules: some brand new, some old favourites given a good tweak. Want to know who else is in the crew, or grab the freshest version of each one? It's all here: [github.com/nisted/companion-modules](https://github.com/nisted/companion-modules)

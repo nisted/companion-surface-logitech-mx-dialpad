@@ -74,6 +74,14 @@ const MxDialpadPlugin: SurfacePlugin<HIDDevice> = {
 							tooltip: 'By default, rolling up (away from you) is rotate right',
 							default: false,
 						},
+						{
+							id: 'crew',
+							type: 'static-text',
+							label: "Psst. This one's got mates. 🍹",
+							value:
+								"MX Creative Dialpad is part of a little crew of Companion modules: some brand new, some old favourites given a good tweak. Want to know who else is in the crew, or grab the freshest version of each one? It's all here: " +
+								'https://github.com/nisted/companion-modules',
+						},
 					],
 				},
 			}
