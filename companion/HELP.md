@@ -1,22 +1,24 @@
 ## Logitech MX Creative Dialpad
 
-Uses the Dialpad's dial, roller and four buttons as a Companion surface.
+Turns the Dialpad's dial, roller and four buttons into a Companion surface. Small, round, surprisingly handy.
 
-### Layout
+### What's where
 
 ![MX Creative Dialpad layout](images/dialpad-layout.jpg?raw=true 'MX Creative Dialpad layout')
 
-Turn on **Enable rotation actions** on the dial and roller buttons to use them. Clockwise and roller-up are
-rotate right; either can be reversed in the surface's settings. The dial and roller don't press.
+The dial and roller only do something once you turn on **Enable rotation actions** on their buttons. Clockwise and
+roller-up count as rotate right. Want it the other way round? Either one can be flipped in the surface's settings.
+One thing to know: the dial and roller don't press. They just turn (we did check).
 
 ### Logi Options+
 
-Logi Options+ can be used in conjunction with the Dialpad as a Companion surface, but the actions must be removed in Logi Options+ from all of the Dialpad's buttons, the roller and the dial.
+You can keep Logi Options+ running alongside the Dialpad as a Companion surface. Just remove its actions from all
+of the Dialpad's buttons, the roller and the dial in Logi Options+ first, so the two don't squabble over it.
 
-### Connection
+### Getting connected
 
-The Dialpad has been tested over Bluetooth direct to both Windows and macOS.
-If Companion doesn't find the Dialpad, click **Rescan USB** on the Surfaces page.
+Tested over Bluetooth, straight to both Windows and macOS.
+Companion not seeing the Dialpad? Click **Rescan USB** on the Surfaces page.
 
 ### Psst. This one's got mates. 🍹
 

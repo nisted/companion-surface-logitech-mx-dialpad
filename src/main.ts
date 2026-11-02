@@ -49,7 +49,7 @@ const MxDialpadPlugin: SurfacePlugin<HIDDevice> = {
 			const dialRoller = await hidpp.featureIndex(FEATURE_DIAL_ROLLER)
 			const wirelessStatus = await hidpp.featureIndex(FEATURE_WIRELESS_STATUS)
 			if (reprogControls === null || dialRoller === null) {
-				throw new Error('This Dialpad firmware is missing a feature the module needs')
+				throw new Error("This Dialpad's firmware is missing a feature I need, so I can't use it")
 			}
 
 			return {
@@ -64,14 +64,14 @@ const MxDialpadPlugin: SurfacePlugin<HIDDevice> = {
 							id: 'reverseDial',
 							type: 'checkbox',
 							label: 'Reverse dial direction',
-							tooltip: 'By default, clockwise is rotate right',
+							tooltip: 'Normally clockwise is rotate right. Tick this to swap it round.',
 							default: false,
 						},
 						{
 							id: 'reverseRoller',
 							type: 'checkbox',
 							label: 'Reverse roller direction',
-							tooltip: 'By default, rolling up (away from you) is rotate right',
+							tooltip: 'Normally rolling up (away from you) is rotate right. Tick this to swap it round.',
 							default: false,
 						},
 						{
